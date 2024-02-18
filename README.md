@@ -59,9 +59,9 @@ If you are new to React JS then you can refer to their docs.
 
 - In `backend folder`, Change the `.env.example` file to `.env` and add the required credentials.
   `bash
-PORT=
-MONGO_URI=
-JWT_SECRET=
+  PORT=
+  MONGO_URI=
+  JWT_SECRET=
 `
   You can get the `MONGO_URI` from [MongoDB Cloud ](https://cloud.mongodb.com/) by creating an account.
 

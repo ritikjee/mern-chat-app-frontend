@@ -24,7 +24,6 @@
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.1.0",
     "cmdk": "^0.2.1",
-    "cookie-parser": "^1.4.6",
     "js-cookie": "^3.0.5",
     "lucide-react": "^0.331.0",
     "mongoose": "^8.1.2",

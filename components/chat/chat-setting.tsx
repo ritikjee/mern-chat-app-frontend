@@ -38,8 +38,6 @@ function ChatSetting({ roomId, userId }: { roomId: string; userId: string }) {
           `${process.env.NEXT_PUBLIC_BACKEND_URL}/api/room/get-members?roomId=${roomId}`
         );
 
-        console.log(memb);
-
         setMembers(memb);
       } catch (error) {
         console.log(error);
@@ -50,8 +48,6 @@ function ChatSetting({ roomId, userId }: { roomId: string; userId: string }) {
         const { data: memb } = await axios.get(
           `${process.env.NEXT_PUBLIC_BACKEND_URL}/api/room/get-admin-member?roomId=${roomId}`
         );
-
-        console.log(memb);
 
         setAdmin(memb);
       } catch (error) {
